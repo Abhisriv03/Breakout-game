@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+canvas {
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+#gameInfo, #levelInfo {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+#gameInfo span, #levelInfo span {
+    font-size: 18px;
+}
+
+#restartBtn {
+    padding: 5px 10px;
+    background-color: #0095DD;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#restartBtn:hover {
+    background-color: #007bbd;
+}
